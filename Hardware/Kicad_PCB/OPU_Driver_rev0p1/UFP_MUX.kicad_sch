@@ -1,0 +1,6058 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "9ffe63b3-968f-42db-9209-2df12de5d165")
+	(paper "A4")
+	(lib_symbols
+		(symbol "PCM_JLCPCB-Capacitors:0402,100nF,(2)"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 2.032 1.668 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "100nF"
+				(at 2.032 -0.3782 0)
+				(effects
+					(font
+						(size 0.8 0.8)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "PCM_JLCPCB:C_0402"
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C307331"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Stock" "7501618"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Price" "0.008USD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Process" "SMT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Minimum Qty" "20"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Attrition Qty" "10"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Class" "Basic Component"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Samsung Electro-Mechanics"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part" "CL05B104KB54PNC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Voltage Rated" "50V"
+				(at 2.032 -2.0462 0)
+				(effects
+					(font
+						(size 0.8 0.8)
+					)
+					(justify left)
+				)
+			)
+			(property "Tolerance" "±10%"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Capacitance" "100nF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Temperature Coefficient" "X7R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0402,100nF,(2)_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0.635) (xy 1.27 0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -0.635) (xy 1.27 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "0402,100nF,(2)_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 3.175)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 3.175)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_JLCPCB-Resistors:0402,150kΩ"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 1.778 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "150kΩ"
+				(at 0 0 90)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.8 0.8)
+					)
+				)
+			)
+			(property "Footprint" "PCM_JLCPCB:R_0402"
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010100_UNI-ROYAL-Uniroyal-Elec-0402WGF1503TCE_C25755.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 150kΩ 0402 Chip Resistor - Surface Mount ROHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C25755"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Stock" "400844"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Price" "0.004USD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Process" "SMT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Minimum Qty" "20"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Attrition Qty" "10"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Class" "Preferred Component"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Category" "Resistors,Chip Resistor - Surface Mount"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part" "0402WGF1503TCE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Resistance" "150kΩ"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Power(Watts)" "62.5mW"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Type" "Thick Film Resistors"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Overload Voltage (Max)" "50V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Operating Temperature Range" "-55°C~+155°C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" "±1%"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Temperature Coefficient" "±100ppm/°C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0402,150kΩ_0_1"
+				(rectangle
+					(start -1.016 2.54)
+					(end 1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "0402,150kΩ_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_JLCPCB-Resistors:0402,200kΩ"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 1.778 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "200kΩ"
+				(at 0 0 90)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.8 0.8)
+					)
+				)
+			)
+			(property "Footprint" "PCM_JLCPCB:R_0402"
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010100_UNI-ROYAL-Uniroyal-Elec-0402WGF2003TCE_C25764.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 200kΩ 0402 Chip Resistor - Surface Mount ROHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C25764"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Stock" "857366"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Price" "0.004USD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Process" "SMT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Minimum Qty" "20"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Attrition Qty" "10"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Class" "Basic Component"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Category" "Resistors,Chip Resistor - Surface Mount"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part" "0402WGF2003TCE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Resistance" "200kΩ"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Power(Watts)" "62.5mW"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Type" "Thick Film Resistors"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Overload Voltage (Max)" "50V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Operating Temperature Range" "-55°C~+155°C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" "±1%"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Temperature Coefficient" "±100ppm/°C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0402,200kΩ_0_1"
+				(rectangle
+					(start -1.016 2.54)
+					(end 1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "0402,200kΩ_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_JLCPCB-Resistors:0402,4.7kΩ"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 1.778 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "4.7kΩ"
+				(at 0 0 90)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.8 0.8)
+					)
+				)
+			)
+			(property "Footprint" "PCM_JLCPCB:R_0402"
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF4701TCE_C25900.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 4.7kΩ 0402 Chip Resistor - Surface Mount ROHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C25900"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Stock" "4198146"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Price" "0.004USD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Process" "SMT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Minimum Qty" "20"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Attrition Qty" "10"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Class" "Basic Component"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Category" "Resistors,Chip Resistor - Surface Mount"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part" "0402WGF4701TCE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Resistance" "4.7kΩ"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Power(Watts)" "62.5mW"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Type" "Thick Film Resistors"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Overload Voltage (Max)" "50V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Operating Temperature Range" "-55°C~+155°C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" "±1%"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Temperature Coefficient" "±100ppm/°C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0402,4.7kΩ_0_1"
+				(rectangle
+					(start -1.016 2.54)
+					(end 1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "0402,4.7kΩ_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_JLCPCB-Resistors:0603,750kΩ"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 1.778 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "750kΩ"
+				(at 0 0 90)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.8 0.8)
+					)
+				)
+			)
+			(property "Footprint" "PCM_JLCPCB:R_0603"
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010100_UNI-ROYAL-Uniroyal-Elec-0603WAF7503T5E_C23240.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "100mW Thick Film Resistors 75V ±100ppm/°C ±1% 750kΩ 0603 Chip Resistor - Surface Mount ROHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C23240"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Stock" "78473"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Price" "0.004USD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Process" "SMT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Minimum Qty" "20"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Attrition Qty" "10"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Class" "Preferred Component"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Category" "Resistors,Chip Resistor - Surface Mount"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part" "0603WAF7503T5E"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Resistance" "750kΩ"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Power(Watts)" "100mW"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Type" "Thick Film Resistors"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Overload Voltage (Max)" "75V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Operating Temperature Range" "-55°C~+155°C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" "±1%"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Temperature Coefficient" "±100ppm/°C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0603,750kΩ_0_1"
+				(rectangle
+					(start -1.016 2.54)
+					(end 1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "0603,750kΩ_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "easyeda:HD3SS3220IRNHT"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "HD3SS3220IRNHT"
+				(at 0 -26.67 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda:WQFN-30_L4.5-W2.5-P0.4-BL-EP"
+				(at 0 -29.21 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C2876685"
+				(at 0 -31.75 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "HD3SS3220IRNHT_0_1"
+				(rectangle
+					(start -24.13 21.59)
+					(end 24.13 -19.05)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -22.86 20.32)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -26.67 19.05 0)
+					(length 2.54)
+					(name "CC2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -26.67 16.51 0)
+					(length 2.54)
+					(name "CC1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -26.67 13.97 0)
+					(length 2.54)
+					(name "CURRENT_MODE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -26.67 11.43 0)
+					(length 2.54)
+					(name "PORT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -26.67 8.89 0)
+					(length 2.54)
+					(name "VBUS_DET"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -26.67 6.35 0)
+					(length 2.54)
+					(name "TXp"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -26.67 3.81 0)
+					(length 2.54)
+					(name "TXn"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -26.67 1.27 0)
+					(length 2.54)
+					(name "VCC33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -26.67 -1.27 0)
+					(length 2.54)
+					(name "RXp"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -26.67 -3.81 0)
+					(length 2.54)
+					(name "RXn"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -26.67 -6.35 0)
+					(length 2.54)
+					(name "DIR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -26.67 -8.89 0)
+					(length 2.54)
+					(name "ENn_MUX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -26.67 -11.43 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -26.67 -13.97 0)
+					(length 2.54)
+					(name "RX1n"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -26.67 -16.51 0)
+					(length 2.54)
+					(name "RX1p"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -21.59 90)
+					(length 2.54)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 26.67 19.05 180)
+					(length 2.54)
+					(name "VDD5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 26.67 16.51 180)
+					(length 2.54)
+					(name "ENn_CC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 26.67 13.97 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 26.67 11.43 180)
+					(length 2.54)
+					(name "ID"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 26.67 8.89 180)
+					(length 2.54)
+					(name "SCL/OUT2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 26.67 6.35 180)
+					(length 2.54)
+					(name "SDA/OUT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 26.67 3.81 180)
+					(length 2.54)
+					(name "VCONN_FAULT_N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 26.67 1.27 180)
+					(length 2.54)
+					(name "INT_N/OUT3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 26.67 -1.27 180)
+					(length 2.54)
+					(name "ADDR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 26.67 -3.81 180)
+					(length 2.54)
+					(name "TX2p"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 26.67 -6.35 180)
+					(length 2.54)
+					(name "TX2n"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 26.67 -8.89 180)
+					(length 2.54)
+					(name "RX2p"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 26.67 -11.43 180)
+					(length 2.54)
+					(name "RX2n"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 26.67 -13.97 180)
+					(length 2.54)
+					(name "TX1p"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 26.67 -16.51 180)
+					(length 2.54)
+					(name "TX1n"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 118.11 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0539bd69-0d86-47c1-9810-f07b8e48bbe6")
+	)
+	(junction
+		(at 184.15 77.47)
+		(diameter 1.016)
+		(color 0 0 0 0)
+		(uuid "16867c90-14a6-410b-a0a7-3b58701bb8b7")
+	)
+	(junction
+		(at 176.53 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "19aa8506-b856-4b30-a50d-31d404ae53e4")
+	)
+	(junction
+		(at 201.93 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "258997b9-b53b-41d5-b74f-c3da9f9ebbac")
+	)
+	(junction
+		(at 195.58 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "61713d6b-8ccc-4ad5-b1c3-6f5bea889d94")
+	)
+	(junction
+		(at 201.93 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "61b6ddfd-4387-472a-aa20-c6c5b5c9a747")
+	)
+	(junction
+		(at 184.15 64.77)
+		(diameter 1.016)
+		(color 0 0 0 0)
+		(uuid "6db67250-6163-4f3c-ae64-cd810c5dfbfa")
+	)
+	(junction
+		(at 201.93 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a210ff2a-196f-4aba-820b-c8655a07f2c3")
+	)
+	(no_connect
+		(at 176.53 110.49)
+		(uuid "2517a80d-83ff-4513-a19c-a04cd034d147")
+	)
+	(no_connect
+		(at 176.53 107.95)
+		(uuid "8b0c4c1b-f84a-4d3a-9df3-69e03f4f80d4")
+	)
+	(no_connect
+		(at 176.53 105.41)
+		(uuid "b2a53c28-afeb-4191-963e-af5d093621b1")
+	)
+	(no_connect
+		(at 116.84 95.25)
+		(uuid "c0641892-b34b-4a45-8af0-d4b850654e91")
+	)
+	(no_connect
+		(at 176.53 97.79)
+		(uuid "f9a36709-bb91-4c6e-a2d9-4cc11db56f0a")
+	)
+	(wire
+		(pts
+			(xy 173.99 102.87) (xy 195.58 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0027927c-0a6f-43d3-a3da-fcc7e3dea0a1")
+	)
+	(wire
+		(pts
+			(xy 180.34 118.11) (xy 173.99 118.11)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "01ad1118-dca4-44a6-8627-12e411c606fa")
+	)
+	(wire
+		(pts
+			(xy 132.08 30.48) (xy 140.97 30.48)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "01bc5ecc-dc3f-4e7f-a9ce-d6387c9f155e")
+	)
+	(wire
+		(pts
+			(xy 114.3 92.71) (xy 120.65 92.71)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "0963fdfd-dc3a-4648-b78d-7b92aa4f730a")
+	)
+	(wire
+		(pts
+			(xy 173.99 105.41) (xy 176.53 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18770ca8-ab32-4fe8-8352-82b7fe0a2fe5")
+	)
+	(wire
+		(pts
+			(xy 201.93 83.82) (xy 205.74 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b236646-7c38-495e-955d-2db165aa8d26")
+	)
+	(wire
+		(pts
+			(xy 195.58 118.11) (xy 201.93 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2396533c-ef73-4704-9850-bf365fd69a56")
+	)
+	(wire
+		(pts
+			(xy 184.15 77.47) (xy 184.15 74.93)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "2c4a9574-5a54-44b6-8db6-19981aeb44e9")
+	)
+	(wire
+		(pts
+			(xy 180.34 113.03) (xy 173.99 113.03)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "2dc4ea37-8cbd-4e3c-b43d-dba056074773")
+	)
+	(wire
+		(pts
+			(xy 96.52 100.33) (xy 100.33 100.33)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "357c6632-5837-4130-955e-9a8c1ac09c30")
+	)
+	(wire
+		(pts
+			(xy 114.3 105.41) (xy 120.65 105.41)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "36cb97e9-9d07-4949-80d8-afbc21710b09")
+	)
+	(wire
+		(pts
+			(xy 114.3 110.49) (xy 120.65 110.49)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "37734aab-c0bd-4c7d-a06a-755d29b09718")
+	)
+	(wire
+		(pts
+			(xy 195.58 114.3) (xy 195.58 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ee28f20-6f81-4a5e-b734-60df4869eb33")
+	)
+	(wire
+		(pts
+			(xy 195.58 102.87) (xy 213.36 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f2072fb-b77a-45a9-8244-bf1f41b566f3")
+	)
+	(wire
+		(pts
+			(xy 120.65 118.11) (xy 118.11 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45fcb86f-afc5-4cb1-a486-ca798c61a63b")
+	)
+	(wire
+		(pts
+			(xy 132.08 34.29) (xy 140.97 34.29)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "46ed9622-0345-4823-b006-cba661547e8c")
+	)
+	(wire
+		(pts
+			(xy 173.99 100.33) (xy 201.93 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a95f093-3a27-4dda-b4e5-1f15b1ab4d50")
+	)
+	(wire
+		(pts
+			(xy 147.32 137.16) (xy 147.32 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5045a1dc-fdc6-41fd-901c-75f783b66365")
+	)
+	(wire
+		(pts
+			(xy 179.07 77.47) (xy 184.15 77.47)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "5847a930-bd1f-41d2-9713-a572c169321e")
+	)
+	(wire
+		(pts
+			(xy 180.34 120.65) (xy 173.99 120.65)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "5a1b9a58-1d00-4319-a270-7c785f8db7f7")
+	)
+	(wire
+		(pts
+			(xy 114.3 90.17) (xy 120.65 90.17)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "6d509e08-ed22-4d33-9c95-b4ff1f4ee548")
+	)
+	(wire
+		(pts
+			(xy 118.11 118.11) (xy 118.11 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f4739ad-1b66-4de6-a202-b2306977bae0")
+	)
+	(wire
+		(pts
+			(xy 173.99 107.95) (xy 176.53 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73e57254-8667-4dc2-ac57-0727d9ecf5fe")
+	)
+	(wire
+		(pts
+			(xy 107.95 100.33) (xy 110.49 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "746b43d1-2bc3-4cb2-a8cf-3b30fb353a38")
+	)
+	(wire
+		(pts
+			(xy 114.3 125.73) (xy 120.65 125.73)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "74e0c42c-2be4-4720-8265-35ce0d5cc685")
+	)
+	(wire
+		(pts
+			(xy 114.3 113.03) (xy 120.65 113.03)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "82feda27-a994-4e5f-926d-bc601975ccab")
+	)
+	(wire
+		(pts
+			(xy 114.3 102.87) (xy 120.65 102.87)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "85e93077-0636-4ada-977a-296f6a3667cd")
+	)
+	(wire
+		(pts
+			(xy 118.11 120.65) (xy 120.65 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "879d317e-9b21-4e90-9bab-0e2ffbfbd625")
+	)
+	(wire
+		(pts
+			(xy 180.34 123.19) (xy 173.99 123.19)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "9311a619-80bd-4abc-b7fa-7ab5bd80fa15")
+	)
+	(wire
+		(pts
+			(xy 201.93 96.52) (xy 201.93 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95f68a85-6ed9-4f8c-af78-8eb0d26d7133")
+	)
+	(wire
+		(pts
+			(xy 106.68 97.79) (xy 120.65 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98799eda-0c85-4c9f-95f2-b7323208c5a1")
+	)
+	(wire
+		(pts
+			(xy 184.15 64.77) (xy 193.04 64.77)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "98e367c2-8218-4cc4-8f4b-52c9a7f4fb51")
+	)
+	(wire
+		(pts
+			(xy 173.99 90.17) (xy 180.34 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9feea118-7c1e-4cfc-8ed2-a65e60aaf70e")
+	)
+	(wire
+		(pts
+			(xy 93.98 107.95) (xy 120.65 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a03f48fe-5484-4a01-8732-941c8f71fe4f")
+	)
+	(wire
+		(pts
+			(xy 201.93 118.11) (xy 204.47 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a46d8521-86ca-49d7-92ee-757b3d9d0ca3")
+	)
+	(wire
+		(pts
+			(xy 184.15 77.47) (xy 193.04 77.47)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "a5eb201a-53fb-48fb-b391-b72de018ed97")
+	)
+	(wire
+		(pts
+			(xy 195.58 88.9) (xy 195.58 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a65ba2e8-b163-48d8-b3e4-2ba6e1ff9bb6")
+	)
+	(wire
+		(pts
+			(xy 184.15 64.77) (xy 179.07 64.77)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "a8383e73-f903-4980-ab92-054b71bd93e9")
+	)
+	(wire
+		(pts
+			(xy 201.93 83.82) (xy 201.93 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad3fad02-ead1-4693-b843-3912f1996509")
+	)
+	(wire
+		(pts
+			(xy 195.58 96.52) (xy 195.58 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0e9ac1e-54fb-47e9-89c6-ac871333821f")
+	)
+	(wire
+		(pts
+			(xy 116.84 95.25) (xy 120.65 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4df19ef-7226-4467-8e7b-8d326e804bad")
+	)
+	(wire
+		(pts
+			(xy 106.68 120.65) (xy 118.11 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b58804e4-9224-40b7-9ba7-438b2fd49d4e")
+	)
+	(wire
+		(pts
+			(xy 118.11 100.33) (xy 120.65 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6417fea-d4ed-468e-84ae-17051c70c0ef")
+	)
+	(wire
+		(pts
+			(xy 201.93 114.3) (xy 201.93 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b68f5dda-c427-4681-9508-de5ccea8f417")
+	)
+	(wire
+		(pts
+			(xy 195.58 83.82) (xy 201.93 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7d285f4-7f15-46e3-86e1-22d4b0005f5e")
+	)
+	(wire
+		(pts
+			(xy 114.3 123.19) (xy 120.65 123.19)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "c1882853-6458-452f-a2e7-eb2adead2817")
+	)
+	(wire
+		(pts
+			(xy 176.53 95.25) (xy 181.61 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c218d6da-d8b3-4131-8542-457f42468087")
+	)
+	(wire
+		(pts
+			(xy 144.78 137.16) (xy 147.32 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c471dc43-8d7b-40bc-9529-d17d4b95c44c")
+	)
+	(wire
+		(pts
+			(xy 176.53 92.71) (xy 176.53 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c57eab73-98ca-479d-80d7-9fc4ba4a0868")
+	)
+	(wire
+		(pts
+			(xy 201.93 100.33) (xy 213.36 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9f88e4c-deca-4bf0-9cba-0064f6eb38bc")
+	)
+	(wire
+		(pts
+			(xy 193.04 67.31) (xy 193.04 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca089541-350d-48c2-8bc7-041a29e82d4b")
+	)
+	(wire
+		(pts
+			(xy 173.99 110.49) (xy 176.53 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb85fb3e-2cad-4141-93bb-f754e761b820")
+	)
+	(wire
+		(pts
+			(xy 109.22 115.57) (xy 120.65 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccaba872-c7ab-4467-a105-b5c291e83fac")
+	)
+	(wire
+		(pts
+			(xy 193.04 74.93) (xy 193.04 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd9acb53-9b15-4d07-8e8d-a37b4d60900a")
+	)
+	(wire
+		(pts
+			(xy 180.34 115.57) (xy 173.99 115.57)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "d1f0ac61-2738-430e-9f9d-e14912e50a4f")
+	)
+	(wire
+		(pts
+			(xy 184.15 64.77) (xy 184.15 67.31)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "db6af142-0c8b-4764-ac5b-888e3ccd25d7")
+	)
+	(wire
+		(pts
+			(xy 93.98 115.57) (xy 101.6 115.57)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "dc4fc2f8-92d1-4951-9c1e-6dae4bb52371")
+	)
+	(wire
+		(pts
+			(xy 173.99 95.25) (xy 176.53 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "deb9bf52-1f02-47b0-a25b-ccab605a8b0f")
+	)
+	(wire
+		(pts
+			(xy 173.99 92.71) (xy 176.53 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6931749-b7e4-4739-ad8d-fbee4221f947")
+	)
+	(wire
+		(pts
+			(xy 195.58 102.87) (xy 195.58 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9e714fe-3e76-4107-b744-c25cdf89da2a")
+	)
+	(wire
+		(pts
+			(xy 173.99 97.79) (xy 176.53 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f246841b-0cd7-4975-bef5-f498195b2e3c")
+	)
+	(wire
+		(pts
+			(xy 201.93 100.33) (xy 201.93 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3e26307-b10f-4d89-bad0-0a8912c35c5f")
+	)
+	(wire
+		(pts
+			(xy 180.34 125.73) (xy 173.99 125.73)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "f9e7b72a-cc1f-4da6-97a5-1698514a5dd0")
+	)
+	(image
+		(at 189.23 151.13)
+		(scale 0.398469)
+		(uuid "1c1aaee0-e782-4143-a31a-7483d0a312ff")
+		(data "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"
+			"5YXkkkULcz45PfjHUSi3Vv+XRVc5zysXvvjiMixctITMmSlCtwj1Iwt9QxjrCCGkKdi3jhBCmoKx"
+			"jhBCmoKxjhBCmoKxjhBCmoKxjhBCmoKxjhBCmoKxjhBCmoKxjhBCmoKxjhBCmoKxjhBCmoKxjhBC"
+			"moKxjhBCmoKxjhBCmoKxjhBCmoKxjhBCmoKxjhBCmoKxjhBCmoKxjhBCmoKxjhBCmoKxjhBCmoKx"
+			"jhBCmpKO9cS7HXaToVin0+l0ukUV9c8G4jMKE6RGe1ptVasW6UTFBrqq8YUhxcIwEx96YXu1NFud"
+			"TrfIUMG09oymFGsTfX17NS2ULTZWNb4UUSg3PtTxULoCxYaK+qd6csulRntamQppwcUqlUyNehvN"
+			"xvQiH/Jmz+pgvU5ZsYGusissOtJKq0yh0+kWGVaZ7bvfimdO0qO2DN0iwypzo1eluRBCSAHHcRzH"
+			"sd0MkftZmSs0zcmF9pgVivFIm28iozA34XcsV12u6elQZmku1EbnFiPqfKysDBtsUSiUs/SxF63K"
+			"9SzfIV8j9rCDmnVFuhnVdeCVmN3D8vUIu0pnmQKyV9832zIIplveDAghpAo4juPYTqtKnFDNg+my"
+			"J13KkSqpdI+lS7O+OtWvAD6qHIdlFRlqUUhYAACwvigm2nSfo0R9fjWdQrmo26xeKr1G6nMjtval"
+			"KzZrrANACSP7Jigo1gHM7qg0yayxDgCWzqxvTYQQUgIcx8X2iDFY5uw7y3HTMY+UyEud/WLRvq3i"
+			"myVWd3CMneY4jktOhDwNUiBTLUNi6bPpbKWbfKGJJMdx3DQ7dthllsJUCmLZzIma9nCS45KDrjKx"
+			"2AaxWDphKVv3WJLjuOSYb7O0dLP7LMdxXFg66yfMO46zHMdx7OCOSrHyhIPPbPZF8buMsLSfTHJc"
+			"MvycRSxkSddMWmipK5xutyQb6XOtJ6XQlX0TpGOd6c5s7ORY3xPpnzv009L8pFinXSdlxSfCfc0m"
+			"aRHmPbGr3rwIoVsPcBw3+JzNUk6SJWA9IL497BLDkvGJ7/nqxEx9Iqv/pN+5NCd60qf2Vk9mTw67"
+			"z5KVsBwX8z1uNZeSJEG7pA6NA2Lsinka3mMhl5KEXhb0HMdNe8RyQib6m0hyKUkAkI/0p5eas0bS"
+			"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"
+			"grGOEEKagrGOEEKagrGOEEKagrGOEEKagrGOEEKagrGOEEKagrGOEEKagrGOEEKagrGOEEKagrGO"
+			"EEKagrGOEEKagrGOEEKagrGOEEKagrGOEEKagrGOEEKagrGOEEKagrGOEEKagrGOEEKagrGOEEKa"
+			"grGOEEKagrGOEEKagrGOEEKagrGOEEKagrGOEEKagrGOEEKagrGOEEKagrGOEEKagrGOEEKa8v8B"
+			"ayAqlvDN5hIAAAAASUVORK5CYIIAAACw4sl7sAIAAAEAAAAAAAAAAAAAAAAAAAD9Wb4WAF0CgMAf"
+			"yXuwAgAAAwAAAAAAAACA4cl7sAIAAAEAAAAAAAAAAAAAAAAAAAD+WbEWAF4CgPAlyXuwAgAAAwAA"
+			"AAAAAACQ4sl7sAIAAAEAAAAAAAAAAAAAAAAAAAD7WbQWAF8CgAAAAAAAAAAAAwAAAAAAAABg4cl7"
+			"sAIAAAEAAAAAAAAAAAAAAAAAAADkWbcWAGACgHAeyXuwAgAAAwAAAAAAAACAKcd7sAIAAAEAAAAA"
+			"AAAAAAAAAAAAAADhWaoWAGECgGAiyXuwAgAAAwAAAAAAAAAw4cl7sAIAAAEAAAAAAAAAAAAAAAAA"
+			"AADiWa0WAGICgAAAAAAAAAAABAAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAAAAAAAAAADvWaAWAGMC"
+			"gMAoyXuwAgAAAwAAAAAAAACgJ8d7sAIAAAEAAAAAAAAAAAAAAAAAAADoWaMWAGQCgAAAAAAAAAAA"
+			"AwAAAAAAAADw4cl7sAIAAAEAAAAAAAAAAAAAAAAAAACVWaYWAGUCgMAiyXuwAgAAAwAAAAAAAACQ"
+			"4cl7sAIAAAEAAAAAAAAAAAAAAAAAAACWWdkWAGYCgOAjyXuwAgAAAwAAAAAAAACg4cl7sAIAAAEA"
+			"AAAAAAAAAAAAAAAAAACTWdwWAGcCgEM6L1dJTkRPV1MvZm9udHNcc2Vnb2V1aWwudHRmAAAAAAAA"
+			"AAAAAACcWd8WAGgCgEAhyXuwAgAAAwAAAAAAAACw5sl7sAIAAAEAAAAAAAAAAAAAAAAAAACZWdIW"
+			"AGkCgBAhyXuwAgAAAwAAAAAAAADAKMd7sAIAAAEAAAAAAAAAAAAAAAAAAACaWdUWAGoCgBAnyXuw"
+			"AgAAAwAAAAAAAABA5Ml7sAIAAAEAAAAAAAAAAAAAAAAAAACHWcgWAGsCgKAhyXuwAgAAAwAAAAAA"
+			"AACAJ8d7sAIAAAEAAAAAAAAAAAAAAAAAAACAWcsWAGwCgCAgyXuwAgAAAwAAAAAAAADAJ8d7sAIA"
+			"AAEAAAAAAAAAAAAAAAAAAACNWc4WAG0CgEM6L1dJTkRPV1MvZm9udHNcc2Vnb2V1aWkudHRmAAAA"
+			"AAAAAAAAAACOWcEWAG4CgPAiyXuwAgAAAwAAAAAAAAAA4cl7sAIAAAEAAAAAAAAAAAAAAAAAAACL"
+			"WcQWAG8CgFAjyXuwAgAAAwAAAAAAAABA48l7sAIAAAEAAAAAAAAAAAAAAAAAAAC0WccWAHACgAAA"
+			"AAAAAAAACAAAAAAAAABQvp97sAIAAAEAAAAAAAAAAAAAAAAAAACxWfoWAHECgDAlyXuwAgAAAwAA"
+			"AAAAAABgJMd7sAIAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAACwFIvqOAIAAAEAAAAAAAAAAAAAAAAA"
+			"AADs+FPBADMFgMDRwOo4AgAAAwAAAAAAAADgPL7qOAIAAAEAAAAAAAAAAAAAAAAAAADp+FDBADQF"
+			"gCDSwOo4AgAAAwAAAAAAAAAAPr7qOAIAAAEAAAAAAAAAAAAAAAAAAAD2+FXBADUFgEDTwOo4AgAA"
+			"AwAAAAAAAACAO77qOAIAAAEAAAAAAAAAAAAAAAAAAADz+ErBADYFgEM6L1dJTkRPV1MvZm9udHNc"
+			"Y291ZjEyNTcuZm9uAAAAAAAAAAAAAADw+E/BADcFgAAAAAAAAAAAAwAAAAAAAACAE8HqOAIAAAEA"
+			"AAAAAAAAAAAAAAAAAAD9+EzBADgFgAAAAAAAAAAAAwAAAAAAAABA3MDqOAIAAAEAAAAAAAAAAAAA"
+			"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"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABuNqWhAKoDgM6azrHOvc6/zr3Ouc66zqwAAAAA"
+			"AAAAAGg2p6EAqwOA0J7QsdGL0YfQvdGL0LkAAAAAAAAAAAAAajahoQCsA4B0dcSNbsOpIGt1cnrD"
+			"rXZhAAAAAAAAAAB0NqOhAK0DgM6azrHOvc6/zr3Ouc66zqwAAAAAAAAAAHY2vaEArgOAU3RhbmRh"
+			"cmQAAAAAAAAAAAAAAAAAAAAAcDa/oQCvA4AAAAAAAAAAALQKF58AAAAAsCWYPwoCAAByNrmhALAD"
+			"gFN0YW5kYXJkAAAAAAAAAAAAAAAAAAAAAHw2u6EAsQOAb2J5xI1lam7DqQAAAAAAAAAAAAAAAAAA"
+			"fja1oQCyA4AGAAAAEAAAAKCZ6P7/////AAAAAAAAAAB4NrehALMDgE5vcm1hbG55AAAAAAAAAAAA"
+			"AAAAAAAAAHo2saEAtAOABgAAABAAAAAwdOj+/////wAAAAAAAAAAhDazoQC1A4BmZWQga3Vyc2l2"
+			"AAAAAAAAAAAAAAAAAACGNk2hALYDgAYAAAAQAAAA4HLo/v////8AAAAAAAAAAIA2T6EAtwOAzprO"
+			"sc69zr/Ovc65zrrOrAAAAAAAAAAAgjZJoQC4A4BTdGFuZGFhcmQAAAAAAAAAAAAAAAAAAACMNkuh"
+			"ALkDgFN0YW5kYWFyZAAAAAAAAAAAAAAAAAAAAI42RaEAugOATVMgT3V0bG9vawAAAAAAAAAAAAAA"
+			"AAAAiDZHoQC7A4BOb3JtYWxueQAAAAAAAAAAAAAAAAAAAACKNkGhALwDgFBhcmNobWVudAAAAAAA"
+			"AAAAAAAAAAAAAJQ2Q6EAvQOAT2xkIEVuZ2xpc2ggVGV4dCBNVAAAAAAAljZdoQC+A4BOb3Jtw6Fs"
+			"bmUAAAAAAAAAAAAAAAAAAACQNl+hAL8DgE5vcm1hYWxpAAAAAAAAAAAAAAAAAAAAAJI2WaEAwAOA"
+			"VHXEjW7DoSBrdXJ6w612YQAAAAAAAAAAnDZboQDBA4BJdGFsaXF1ZQAAAAAAAAAAAAAAAAAAAACe"
+			"NlWhAMIDgAYAAAAQAAAAQF7o/v////8AAAAAAAAAAJg2V6EAwwOAUGxheWJpbGwAAAAAAAAAAAAA"
+			"AAAAAAAAmjZRoQDEA4BGw6lsa8O2dsOpciBkxZFsdAAAAAAAAACkNlOhAMUDgEdyYXNzZXR0bwAA"
+			"AAAAAAAAAAAAAAAAAKY2baEAxgOAU3RhbmRhcmQAAAAAAAAAAAAAAAAAAAAAoDZvoQDHA4DQn9C+"
+			"0LvRg9C20LjRgNC90YvQuQAAAACiNmmhAMgDgFN0YW5kYWFyZAAAAAAAAAAAAAAAAAAAAKw2a6EA"
+			"yQOASGFsdmZldCBLdXJzaXYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"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"
+			"AAAAAwAAAAAAAAAwOCIVfgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAABA5AJ0DgAAAAAAAAAAAAwAAAAAAAABQoI1UNQIAAAEAAAAAAAAA"
+			"AAAAAAAAAAA38R85AJ4DgAAAAAAAAAAAAwAAAAAAAACwm41UNQIAAAEAAAAAAAAAAAAAAAAAAAA0"
+			"8Ro5AJ8DgEM6L1dJTkRPV1MvZm9udHNcYXJpYWwudHRmAAAAAAAAgEcAVTUCAAAx8Rk5AKADgLAo"
+			"h1U1AgAAAwAAAAAAAAAgno1UNQIAAAEAAAAAAAAAAAAAAAAAAAA+8QQ5AKEDgAAAAAAAAAAACAAA"
+			"AAAAAADwHmFTNQIAAAEAAAAAAAAAAAAAAAAAAAA78QM5AKIDgAAAAAAAAAAAAwAAAAAAAADAoI1U"
+			"NQIAAAEAAAAAAAAAAAAAAAAAAAA48Q45AKMDgAAAAAAAAAAACAAAAAAAAADwGWFTNQIAAAEAAAAA"
+			"AAAAAAAAAAAAAAAF8Q05AKQDgAAAAAAAAAAAAwAAAAAAAACAoI1UNQIAAAEAAAAAAAAAAAAAAAAA"
+			"AAAC8Qg5AKUDgAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAP8fc4AKYD"
+			"gCAlh1U1AgAAAwAAAAAAAABAn41UNQIAAAEAAAAAAAAAAAAAAAAAAAAM8fI4AKcDgAAAAAAAAAAA"
+			"AwAAAAAAAADQno1UNQIAAAEAAAAAAAAAAAAAAAAAAAAJ8fE4AKgDgIAlh1U1AgAAAwAAAAAAAACQ"
+			"poNVNQIAAAEAAAAAAAAAAAAAAAAAAAAW8fw4AKkDgLAlh1U1AgAAAwAAAAAAAAAwp4NVNQIAAAEA"
+			"AAAAAAAAAAAAAAAAAAAT8fs4AKoDgAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA"
+			"AAAAAAAQ8eY4AKsDgAAAAAAAAAAAAwAAAAAAAABQnI1UNQIAAAEAAAAAAAAAAAAAAAAAAAAd8eU4"
+			"AKwDgAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAa8eA4AK0DgAAAAAAA"
+			"AAAAAwAAAAAAAACQoYNVNQIAAAEAAAAAAAAAAAAAAAAAAABn8e84AK4DgAAAAAAAAAAAAwAAAAAA"
+			"AAAwnY1UNQIAAAEAAAAAAAAAAAAAAAAAAABk8eo4AK8DgEM6L1dJTkRPV1MvZm9udHNcYXBwOTM2"
+			"LmZvbgAAAAAAsEQAVTUCAABh8ek4ALADgAAAAAAAAAAAAwAAAAAAAADQnY1UNQIAAAEAAAAAAAAA"
+			"AAAAAAAAAABu8dQ4ZrEDgAAAAAAAAAAAAwAAAAAAAACwpINVNQIAAAEAAAAAAAAAAAAAAAAAAABr"
+			"8dM4ALIDgAAth1U1AgAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAAAAAABg22MTEQIAAAEAAAAAAAAAAAAAAAAA"
+			"AACedMgAAN4DgAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAACbdM0AAN8D"
+			"gAAAAAAAAAAAAwAAAAAAAAAgqy4gEQIAAAEAAAAAAAAAAAAAAAAAAACEdM4AAOADgEM6L1dJTkRP"
+			"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"
+			"AACX8fgZAAMGgE1TIFNhbnMgU2VyaWYAAAAAAAAAAAAAAJXx/hkABAaAU21hbGwgRm9udHMAAAAA"
+			"AAAAAAAAAAAAq/H8GQAFBoAGAAAAEAAAAGCu0/3/////AAAAAAAAAACp8cIZAAYGgAAAAAAAAAAA"
+			"ox/ntwAAAABgwjL0/wEAAK/xwBkABwaABgAAABAAAAAwjdP9/////wAAAAAAAAAArfHGGQAIBoAA"
+			"AAAAAAAAAGJk2F8AAAAA4Mcy9AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAf8kGxgApBoBOb3JtYWxueQAAAAAAAAAAAAAAAAAAAAB9yQjG"
+			"ACoGgAAAAAAAAAAAZOeWmgAAAABw8mXRXwIAAHvJCsYAKwaAVGVybWluYWwAAAAAAAAAAAAAAAAA"
+			"AAAAeckMxgAsBoBUZXJtaW5hbAAAAAAAAAAAAAAAAAAAAABnyQ7GAC0GgGt1cnrDrXZhAAAAAAAA"
+			"AAAAAAAAAAAAAGXJEMYALgaAAAAAAAAAAAAbR1wWAAAAAJDxZdFfAgAAY8kSxgAvBoAAAAAAAAAA"
+			"AHzXchoAAAAA8PVl0V8CAABhyRTGADAGgFRlcm1pbmFsAAAAAAAAAAAAAAAAAAAAAG/JFsYAMQaA"
+			"Tm9ybcOhbG5lAAAAAAAAAAAAAAAAAAAAbckYxgAyBoDOoM67zqzOs865zrEAAAAAAAAAAAAAAABr"
+			"yRrGADMGgFRlcm1pbmFsAAAAAAAAAAAAAAAAAAAAAGnJHMYANAaAAAAAAAAAAABpz4IbAAAAADD1"
+			"ZdFfAgAAl8kexgA1BoAGAAAAEAAAAKDzx/3/////AAAAAAAAAACVyeDGADYGgE5vcm1hYWxpAAAA"
+			"AAAAAAAAAAAAAAAAAJPJ4sYANwaAS3Vyc2l2b2l0dQAAAAAAAAAAAAAAAAAAkcnkxgA4BoBJdMOh"
+			"bGljbwAAAAAAAAAAAAAAAAAAAACfyebGADkGgNCa0YPRgNGB0LjQsgAAAAAAAAAAAAAAAJ3J6MYA"
+			"OgaAUG/FoWV2bm8AAAAAAAAAAAAAAAAAAAAAm8nqxgA7BoBvYnnEjWVqbsOpAAAAAAAAAAAAAAAA"
+			"AACZyezGADwGgAAAAAAAAAAARxZZGwAAAADw9GXRXwIAAIfJ7sYAPQaAU3RhbmRhcmQAAAAAAAAA"
+			"AAAAAAAAAAAAhcnwxgA+BoBOb3JtYWFsaQAAAAAAAAAAAAAAAAAAAACDyfLGAD8GgAAAAAAAAAAA"
+			"1QlPSgAAAABQ82XRXwIAAIHJ9MYAQAaABgAAABAAAAAQEcj9/////wAAAAAAAAAAj8n2xgBBBoBH"
+			"cmFzIEl0YWxpcXVlAAAAAAAAAAAAAACNyfjGAEIGgEdyYXNzZXR0byBDb3JzaXZvAAAAAAAAAIvJ"
+			"+sYAQwaAzprOsc69zr/Ovc65zrrOrAAAAAAAAAAAicn8xgBEBoBQb2dydWJpb25hIGt1cnN5d2EA"
+			"AAAAAAC3yf7GAEUGgEJvbGQgSXRhbGljAAAAAAAAAAAAAAAAALXJwMYARgaATmVncmV0YSBjdXJz"
+			"aXZhAAAAAAAAAAAAs8nCxgBHBoBOZWdyaXRvIEl0w6FsaWNvAAAAAAAAAACxycTGAEgGgE5lZ3Jp"
+			"dGEgQ3Vyc2l2YQAAAAAAAAAAAA=="
+		)
+	)
+	(hierarchical_label "CC2"
+		(shape input)
+		(at 114.3 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1400a451-82f2-43c7-8c87-42eb370f7ad3")
+	)
+	(hierarchical_label "VCC33"
+		(shape input)
+		(at 93.98 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "17694621-386a-4aec-9510-ee40129fc271")
+	)
+	(hierarchical_label "RX2n"
+		(shape output)
+		(at 180.34 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "18e8e300-9f0e-49d6-8d24-751cfe81fbfb")
+	)
+	(hierarchical_label "USB2_DOWN_p"
+		(shape bidirectional)
+		(at 140.97 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "36143d9d-5e3c-47f3-9626-ce132c8e5999")
+	)
+	(hierarchical_label "TXp"
+		(shape input)
+		(at 114.3 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "479878a6-29b8-4c6d-b184-fefc2b47a081")
+	)
+	(hierarchical_label "RX2p"
+		(shape output)
+		(at 180.34 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4f9a3c0c-02ac-4c6c-b689-ed2d39b8749d")
+	)
+	(hierarchical_label "RX1n"
+		(shape output)
+		(at 114.3 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "583ffde8-a26b-49e3-964b-705dc09f2f45")
+	)
+	(hierarchical_label "USB2_UP_p"
+		(shape bidirectional)
+		(at 132.08 30.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5b4089e0-5b5b-45c1-87ed-d36b4e39b1de")
+	)
+	(hierarchical_label "OUT2"
+		(shape output)
+		(at 213.36 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "75697416-2150-4979-8f56-1ba1a210ff1a")
+	)
+	(hierarchical_label "TX1n"
+		(shape input)
+		(at 180.34 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "78853a64-9ce6-4584-a6bc-e26bc15d77d8")
+	)
+	(hierarchical_label "OUT1"
+		(shape output)
+		(at 213.36 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "78a6cf43-1b0b-43a1-b1c4-5b68d78c8eba")
+	)
+	(hierarchical_label "RXp"
+		(shape input)
+		(at 114.3 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "80c3b16c-b0d2-419c-9212-37428b40c906")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 106.68 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8471c155-f6cd-43c6-935a-26d82980468d")
+	)
+	(hierarchical_label "VBUS"
+		(shape input)
+		(at 180.34 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "851498e0-8f7e-4788-9eaf-ac03d61128db")
+	)
+	(hierarchical_label "RXn"
+		(shape input)
+		(at 114.3 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "91536881-71b9-4a9b-8214-0ca897157456")
+	)
+	(hierarchical_label "RX1p"
+		(shape output)
+		(at 114.3 123.19 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a4e24784-c43f-4663-b528-4c03248be4b4")
+	)
+	(hierarchical_label "VBUS"
+		(shape input)
+		(at 96.52 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a874c408-294a-4052-bfcf-d585302c7c02")
+	)
+	(hierarchical_label "TX2n"
+		(shape input)
+		(at 180.34 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ad595982-66dd-49ba-b5f3-18445b285431")
+	)
+	(hierarchical_label "USB2_DOWN_n"
+		(shape bidirectional)
+		(at 140.97 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aed47a60-bb09-4be2-b744-f8c9b0926f22")
+	)
+	(hierarchical_label "USB2_UP_n"
+		(shape bidirectional)
+		(at 132.08 34.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b4751241-793d-43a6-8702-c0ab2f73d494")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 181.61 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b6a03ecf-86b9-4e1f-8ec2-2a80596d535d")
+	)
+	(hierarchical_label "TX1p"
+		(shape input)
+		(at 180.34 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bd224232-1779-41f8-8976-bd550f085dc1")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 204.47 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "be6f9bbd-5ec9-4bff-b3fa-23a39f8e8c82")
+	)
+	(hierarchical_label "TX2p"
+		(shape input)
+		(at 180.34 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c59ee09e-6d4d-4f91-a1bd-1f09c4368693")
+	)
+	(hierarchical_label "CC1"
+		(shape input)
+		(at 114.3 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cf205134-f002-4c0f-b477-8a5fb84bb2c7")
+	)
+	(hierarchical_label "VCC33"
+		(shape input)
+		(at 93.98 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cf39d118-2c82-441d-bfb9-ec971c395088")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 106.68 120.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d70647f9-e236-4ce4-b3a2-32abc04deb11")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 144.78 137.16 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eafc5f07-c9e4-4ade-a502-d10352d3e5c0")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 179.07 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ebee38a6-91e4-4c13-94b3-b7413816fafe")
+	)
+	(hierarchical_label "VCC33"
+		(shape input)
+		(at 179.07 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f4c02cfb-8258-4ba1-ad60-adeb7d907fa2")
+	)
+	(hierarchical_label "VCC33"
+		(shape input)
+		(at 205.74 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f5ac9e25-725c-4160-b84d-82e510b19939")
+	)
+	(hierarchical_label "TXn"
+		(shape input)
+		(at 114.3 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f8088a26-9c80-43a9-a779-a1592df77f6c")
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Capacitors:0402,100nF,(2)")
+		(at 184.15 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d4602bf-028d-4160-92b0-a60a64e72446")
+		(property "Reference" "C9"
+			(at 186.69 68.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 186.69 71.12 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:C_0402"
+			(at 182.372 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf"
+			(at 184.15 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 184.15 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C307331"
+			(at 184.15 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "7501618"
+			(at 184.15 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.008USD"
+			(at 184.15 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 184.15 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "20"
+			(at 184.15 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "10"
+			(at 184.15 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 184.15 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
+			(at 184.15 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 184.15 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "CL05B104KB54PNC"
+			(at 184.15 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rated" "50V"
+			(at 186.69 73.66 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 184.15 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Capacitance" "100nF"
+			(at 184.15 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "X7R"
+			(at 184.15 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e9fc7c9-594f-4824-9a73-ab2b72ca5387")
+		)
+		(pin "2"
+			(uuid "8d2a19b4-be23-43a9-9371-0116e40f6798")
+		)
+		(instances
+			(project "laser_driver"
+				(path "/0e59b2fa-b1c5-4334-8a91-a26c7df9e0ca/55b93995-6499-4290-a837-72d4a6e663cb"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Resistors:0402,150kΩ")
+		(at 104.14 100.33 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "68af1630-167d-4683-9f1f-eac009297393")
+		(property "Reference" "R5"
+			(at 100.076 99.568 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150kΩ"
+			(at 104.14 100.33 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:R_0402"
+			(at 104.14 98.552 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010100_UNI-ROYAL-Uniroyal-Elec-0402WGF1503TCE_C25755.pdf"
+			(at 104.14 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 150kΩ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 104.14 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25755"
+			(at 104.14 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "400844"
+			(at 104.14 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.004USD"
+			(at 104.14 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 104.14 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "20"
+			(at 104.14 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "10"
+			(at 104.14 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 104.14 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Resistors,Chip Resistor - Surface Mount"
+			(at 104.14 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 104.14 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "0402WGF1503TCE"
+			(at 104.14 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" "150kΩ"
+			(at 104.14 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power(Watts)" "62.5mW"
+			(at 104.14 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "Thick Film Resistors"
+			(at 104.14 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Overload Voltage (Max)" "50V"
+			(at 104.14 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature Range" "-55°C~+155°C"
+			(at 104.14 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 104.14 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "±100ppm/°C"
+			(at 104.14 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b4531c9f-b165-4956-99b7-b562587e59f3")
+		)
+		(pin "1"
+			(uuid "d46a11f1-93e7-4ed5-8cc7-d26e06427ab4")
+		)
+		(instances
+			(project ""
+				(path "/0e59b2fa-b1c5-4334-8a91-a26c7df9e0ca/55b93995-6499-4290-a837-72d4a6e663cb"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Resistors:0603,750kΩ")
+		(at 114.3 100.33 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7a98970e-9a25-4e1c-af2f-213637063d1a")
+		(property "Reference" "R6"
+			(at 109.982 99.568 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "750kΩ"
+			(at 114.3 100.33 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:R_0603"
+			(at 114.3 98.552 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010100_UNI-ROYAL-Uniroyal-Elec-0603WAF7503T5E_C23240.pdf"
+			(at 114.3 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/°C ±1% 750kΩ 0603 Chip Resistor - Surface Mount ROHS"
+			(at 114.3 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23240"
+			(at 114.3 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "78473"
+			(at 114.3 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.004USD"
+			(at 114.3 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 114.3 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "20"
+			(at 114.3 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "10"
+			(at 114.3 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 114.3 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Resistors,Chip Resistor - Surface Mount"
+			(at 114.3 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 114.3 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "0603WAF7503T5E"
+			(at 114.3 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" "750kΩ"
+			(at 114.3 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power(Watts)" "100mW"
+			(at 114.3 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "Thick Film Resistors"
+			(at 114.3 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Overload Voltage (Max)" "75V"
+			(at 114.3 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature Range" "-55°C~+155°C"
+			(at 114.3 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 114.3 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "±100ppm/°C"
+			(at 114.3 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f8e2a44-163e-4d24-b14a-fdc7df23bd12")
+		)
+		(pin "2"
+			(uuid "3348ce66-668c-4e62-951c-5a16f9d330c8")
+		)
+		(instances
+			(project ""
+				(path "/0e59b2fa-b1c5-4334-8a91-a26c7df9e0ca/55b93995-6499-4290-a837-72d4a6e663cb"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Resistors:0402,4.7kΩ")
+		(at 201.93 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "aa25c40a-e0c7-49b2-a380-430b565151a6")
+		(property "Reference" "R3"
+			(at 203.2 89.154 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7kΩ"
+			(at 201.93 92.71 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:R_0402"
+			(at 200.152 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF4701TCE_C25900.pdf"
+			(at 201.93 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 4.7kΩ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 201.93 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25900"
+			(at 201.93 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "4198146"
+			(at 201.93 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.004USD"
+			(at 201.93 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 201.93 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "20"
+			(at 201.93 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "10"
+			(at 201.93 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 201.93 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Resistors,Chip Resistor - Surface Mount"
+			(at 201.93 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 201.93 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "0402WGF4701TCE"
+			(at 201.93 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" "4.7kΩ"
+			(at 201.93 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power(Watts)" "62.5mW"
+			(at 201.93 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "Thick Film Resistors"
+			(at 201.93 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Overload Voltage (Max)" "50V"
+			(at 201.93 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature Range" "-55°C~+155°C"
+			(at 201.93 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 201.93 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "±100ppm/°C"
+			(at 201.93 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c7d87e4-dec2-441a-8fd1-89a3a9f293f0")
+		)
+		(pin "2"
+			(uuid "2823307a-ad00-4312-a7f8-c244ac8a5b4d")
+		)
+		(instances
+			(project "laser_driver"
+				(path "/0e59b2fa-b1c5-4334-8a91-a26c7df9e0ca/55b93995-6499-4290-a837-72d4a6e663cb"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Capacitors:0402,100nF,(2)")
+		(at 193.04 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b81b4476-ab13-45cf-bc9a-bf3ce5e1d91e")
+		(property "Reference" "C10"
+			(at 195.58 68.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 195.58 71.12 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:C_0402"
+			(at 191.262 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf"
+			(at 193.04 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 193.04 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C307331"
+			(at 193.04 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "7501618"
+			(at 193.04 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.008USD"
+			(at 193.04 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 193.04 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "20"
+			(at 193.04 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "10"
+			(at 193.04 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 193.04 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
+			(at 193.04 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 193.04 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "CL05B104KB54PNC"
+			(at 193.04 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rated" "50V"
+			(at 195.58 73.66 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 193.04 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Capacitance" "100nF"
+			(at 193.04 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "X7R"
+			(at 193.04 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "13df80e6-cdc9-4dad-9542-007bd3beb05c")
+		)
+		(pin "2"
+			(uuid "ebcd5738-b64a-437c-9ea5-a1f3a01aea40")
+		)
+		(instances
+			(project "laser_driver"
+				(path "/0e59b2fa-b1c5-4334-8a91-a26c7df9e0ca/55b93995-6499-4290-a837-72d4a6e663cb"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Resistors:0402,4.7kΩ")
+		(at 195.58 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ba8007b0-8a69-4850-b668-a75d413600c7")
+		(property "Reference" "R4"
+			(at 196.596 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7kΩ"
+			(at 195.58 110.49 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:R_0402"
+			(at 193.802 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF4701TCE_C25900.pdf"
+			(at 195.58 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 4.7kΩ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 195.58 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25900"
+			(at 195.58 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "4198146"
+			(at 195.58 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.004USD"
+			(at 195.58 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 195.58 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "20"
+			(at 195.58 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "10"
+			(at 195.58 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 195.58 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Resistors,Chip Resistor - Surface Mount"
+			(at 195.58 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 195.58 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "0402WGF4701TCE"
+			(at 195.58 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" "4.7kΩ"
+			(at 195.58 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power(Watts)" "62.5mW"
+			(at 195.58 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "Thick Film Resistors"
+			(at 195.58 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Overload Voltage (Max)" "50V"
+			(at 195.58 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature Range" "-55°C~+155°C"
+			(at 195.58 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 195.58 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "±100ppm/°C"
+			(at 195.58 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab8a3508-3556-4e2d-9c57-12ba3c47343a")
+		)
+		(pin "2"
+			(uuid "f65e5978-ead6-4924-a8f1-764e0cc4022f")
+		)
+		(instances
+			(project "laser_driver"
+				(path "/0e59b2fa-b1c5-4334-8a91-a26c7df9e0ca/55b93995-6499-4290-a837-72d4a6e663cb"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Resistors:0402,200kΩ")
+		(at 105.41 115.57 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c0ef8b32-3d60-4dfe-bc9b-41b1ffc45e08")
+		(property "Reference" "R1"
+			(at 101.092 114.554 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "200kΩ"
+			(at 105.41 115.57 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:R_0402"
+			(at 105.41 113.792 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010100_UNI-ROYAL-Uniroyal-Elec-0402WGF2003TCE_C25764.pdf"
+			(at 105.41 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 200kΩ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 105.41 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25764"
+			(at 105.41 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "857366"
+			(at 105.41 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.004USD"
+			(at 105.41 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 105.41 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "20"
+			(at 105.41 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "10"
+			(at 105.41 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 105.41 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Resistors,Chip Resistor - Surface Mount"
+			(at 105.41 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 105.41 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "0402WGF2003TCE"
+			(at 105.41 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" "200kΩ"
+			(at 105.41 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power(Watts)" "62.5mW"
+			(at 105.41 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "Thick Film Resistors"
+			(at 105.41 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Overload Voltage (Max)" "50V"
+			(at 105.41 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature Range" "-55°C~+155°C"
+			(at 105.41 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 105.41 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "±100ppm/°C"
+			(at 105.41 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d016512f-a95a-4127-9099-6015d73692f4")
+		)
+		(pin "2"
+			(uuid "887e4a07-0887-4ada-9f15-1454eaf54d08")
+		)
+		(instances
+			(project ""
+				(path "/0e59b2fa-b1c5-4334-8a91-a26c7df9e0ca/55b93995-6499-4290-a837-72d4a6e663cb"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Resistors:0402,4.7kΩ")
+		(at 201.93 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d1c71c3f-93c6-483a-9b0f-b67bf6b7d43b")
+		(property "Reference" "R7"
+			(at 202.946 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7kΩ"
+			(at 201.93 110.49 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:R_0402"
+			(at 200.152 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF4701TCE_C25900.pdf"
+			(at 201.93 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 4.7kΩ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 201.93 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25900"
+			(at 201.93 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "4198146"
+			(at 201.93 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.004USD"
+			(at 201.93 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 201.93 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "20"
+			(at 201.93 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "10"
+			(at 201.93 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 201.93 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Resistors,Chip Resistor - Surface Mount"
+			(at 201.93 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 201.93 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "0402WGF4701TCE"
+			(at 201.93 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" "4.7kΩ"
+			(at 201.93 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power(Watts)" "62.5mW"
+			(at 201.93 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "Thick Film Resistors"
+			(at 201.93 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Overload Voltage (Max)" "50V"
+			(at 201.93 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature Range" "-55°C~+155°C"
+			(at 201.93 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 201.93 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "±100ppm/°C"
+			(at 201.93 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8dfbebc7-754f-4fe6-93f2-f83f400da92d")
+		)
+		(pin "2"
+			(uuid "b7d74eec-2da7-4b7a-8f3f-1e7f6c27869e")
+		)
+		(instances
+			(project "laser_driver"
+				(path "/0e59b2fa-b1c5-4334-8a91-a26c7df9e0ca/55b93995-6499-4290-a837-72d4a6e663cb"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda:HD3SS3220IRNHT")
+		(at 147.32 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5c5169e-9db0-4c57-b777-66028c7429ac")
+		(property "Reference" "U2"
+			(at 147.32 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HD3SS3220IRNHT"
+			(at 147.32 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda:WQFN-30_L4.5-W2.5-P0.4-BL-EP"
+			(at 147.32 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2876685"
+			(at 147.32 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "01cae638-7d61-4d1b-b454-5d91cb563868")
+		)
+		(pin "8"
+			(uuid "cbd4271a-58fa-4af2-b14c-1d7286cfcd35")
+		)
+		(pin "11"
+			(uuid "fc6067ae-12db-41d5-b248-909205871382")
+		)
+		(pin "4"
+			(uuid "3864685d-949b-4962-afcc-1db99c3181c6")
+		)
+		(pin "7"
+			(uuid "eb62a68a-a32b-459c-a2af-c8a2f6806617")
+		)
+		(pin "2"
+			(uuid "fe256eac-f1da-40fb-951b-c649e1aede9a")
+		)
+		(pin "5"
+			(uuid "5b2074a1-e054-4d36-98ba-093e16e75e4f")
+		)
+		(pin "6"
+			(uuid "326da922-834e-4fd3-baf3-edf4b471fe6a")
+		)
+		(pin "1"
+			(uuid "5bdaf4a5-bb6e-48ec-9e01-e7d629665d2a")
+		)
+		(pin "3"
+			(uuid "f398f62c-8b3c-4eaf-96c3-2bb26cd33217")
+		)
+		(pin "9"
+			(uuid "2c22a6eb-abe7-4309-8077-2a239bdc75a8")
+		)
+		(pin "12"
+			(uuid "d409c69b-00a3-4436-8a56-003c4e8f8d8e")
+		)
+		(pin "13"
+			(uuid "20f8cfa5-2092-4b94-9e5e-110bb83d5c89")
+		)
+		(pin "27"
+			(uuid "b3df1ed9-8de0-409a-ae25-28ed987d1dad")
+		)
+		(pin "26"
+			(uuid "7bc2ef52-f8f8-4d04-b67e-de2c8263d807")
+		)
+		(pin "15"
+			(uuid "ce701176-2ec5-4048-b96f-6c953b5f33d0")
+		)
+		(pin "14"
+			(uuid "730dd268-c6c3-478d-b50a-9648701ad97e")
+		)
+		(pin "30"
+			(uuid "30160a54-8252-492b-9328-75a6335dd924")
+		)
+		(pin "29"
+			(uuid "c032e123-cca1-42cf-a2f0-14e474fbe785")
+		)
+		(pin "31"
+			(uuid "6ce46743-4b67-40a3-a0ae-1646e2752c4c")
+		)
+		(pin "28"
+			(uuid "613450cf-1ce8-4ebc-8655-f10e8aff3285")
+		)
+		(pin "25"
+			(uuid "f8e78764-2f26-481e-9713-43f8b983cedf")
+		)
+		(pin "24"
+			(uuid "ced12263-060f-4416-b065-6a991851be0a")
+		)
+		(pin "21"
+			(uuid "c310a3b5-265b-417a-940e-6afc2c36d95c")
+		)
+		(pin "22"
+			(uuid "43055e1b-44b6-4dcd-80f4-c723ccde1924")
+		)
+		(pin "20"
+			(uuid "960265ee-bb2d-4a03-87ff-f0c068413d4c")
+		)
+		(pin "16"
+			(uuid "e7343a21-c03b-4436-a940-a352158c7b22")
+		)
+		(pin "19"
+			(uuid "681e3de5-5e14-4941-88aa-c2a39ff1b85c")
+		)
+		(pin "18"
+			(uuid "52e1a6fb-3b18-4de4-b94f-bfb5651f5981")
+		)
+		(pin "23"
+			(uuid "1b61f70f-b88a-4230-a4aa-e4122af00a46")
+		)
+		(pin "17"
+			(uuid "05a7f6d6-13e2-4716-aca2-aa4fee4c2b3e")
+		)
+		(instances
+			(project ""
+				(path "/0e59b2fa-b1c5-4334-8a91-a26c7df9e0ca/55b93995-6499-4290-a837-72d4a6e663cb"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Resistors:0402,4.7kΩ")
+		(at 195.58 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "fc097232-47bf-4f6a-87b5-662b03704f0c")
+		(property "Reference" "R2"
+			(at 196.596 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7kΩ"
+			(at 195.58 92.71 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:R_0402"
+			(at 193.802 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF4701TCE_C25900.pdf"
+			(at 195.58 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 4.7kΩ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 195.58 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25900"
+			(at 195.58 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "4198146"
+			(at 195.58 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.004USD"
+			(at 195.58 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 195.58 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "20"
+			(at 195.58 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "10"
+			(at 195.58 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 195.58 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Resistors,Chip Resistor - Surface Mount"
+			(at 195.58 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 195.58 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "0402WGF4701TCE"
+			(at 195.58 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" "4.7kΩ"
+			(at 195.58 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power(Watts)" "62.5mW"
+			(at 195.58 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "Thick Film Resistors"
+			(at 195.58 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Overload Voltage (Max)" "50V"
+			(at 195.58 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature Range" "-55°C~+155°C"
+			(at 195.58 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 195.58 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "±100ppm/°C"
+			(at 195.58 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e3e26b88-31b6-47f1-9a1f-bed94910681a")
+		)
+		(pin "2"
+			(uuid "e9a1eab4-69a7-4e6c-806d-b6166632031c")
+		)
+		(instances
+			(project ""
+				(path "/0e59b2fa-b1c5-4334-8a91-a26c7df9e0ca/55b93995-6499-4290-a837-72d4a6e663cb"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
