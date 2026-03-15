@@ -1,9 +1,10 @@
 <details>
   <summary>Your header here! (Click to expand)</summary>
   1. STED Microscopy
-https://www.youtube.com/watch?v=1pgpzHao1c0​
+  
+  https://www.youtube.com/watch?v=1pgpzHao1c0​
  
-  2.Two-beam OBL utilizes a doughnut-shaped inhibition beam to inhibit the photopolymerization triggered by the writing beam at the doughnut ring leading to reduced feature size and improved resolution 
+  2. Two-beam OBL utilizes a doughnut-shaped inhibition beam to inhibit the photopolymerization triggered by the writing beam at the doughnut ring leading to reduced feature size and improved resolution 
 https://www.nature.com/articles/ncomms3061​
 
   3.Super-resolved critical dimensions in far-field I-line photolithography
